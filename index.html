@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Navbar</title>
+</head>
+
+<body>
+    <!--HEADER START-->
+    <header>
+        <nav class="container">
+            <input type="checkbox" name="" id="check">
+            
+            <div class="logo-container">
+                <h3 class="logo">Brand<span>Name</span></h3>
+            </div>
+
+            <!--NAVEGATION START-->
+            <div class="nav-btn">
+                <div class="nav-links">
+                    <ul>
+                        <li class="nav-link"><a href="">Home</a></li>
+                        <li class="nav-link"><a href="">Menu<i class="fas fa-caret-down"></i></a>
+                            <!--DROPDOWN START-->
+                            <div class="dropdown">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="">Link 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="">Link 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="">Link 1</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="">Link 2</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="">Link 3</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="">Link 1</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="">Link 2</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="">Link 3</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="">Link 4</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                            <!--DROPDOWN END-->
+                        </li>
+                        <li class="nav-link"><a href="">Services<i class="fas fa-caret-down"></i></a>
+                            <!--DROPDOWN START-->
+                            <div class="dropdown left">
+                                <ul>
+                                    <li class="dropdown-link">
+                                        <a href="">Link 1</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="">Link 2</a>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="">Link 3<i class="fas fa-caret-down"></i></a>
+                                        <div class="dropdown second">
+                                            <ul>
+                                                <li class="dropdown-link">
+                                                    <a href="">Link 1</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="">Link 2</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="">Link 3</a>
+                                                </li>
+                                                <li class="dropdown-link">
+                                                    <a href="">More<i class="fas fa-caret-down"></i></a>
+                                                    <div class="dropdown second">
+                                                        <ul>
+                                                            <li class="dropdown-link">
+                                                                <a href="">Link 1</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="">Link 2</a>
+                                                            </li>
+                                                            <li class="dropdown-link">
+                                                                <a href="">Link 3</a>
+                                                            </li>
+                                                            <div class="arrow"></div>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <div class="arrow"></div>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="dropdown-link">
+                                        <a href="">Link 4</a>
+                                    </li>
+                                    <div class="arrow"></div>
+                                </ul>
+                            </div>
+                            <!--DROPDOWN END-->
+                        </li>
+                        <li class="nav-link"><a href="">About</a></li>
+                    </ul>
+                </div>
+
+                <div class="log-sign">
+                    <a href="#" class="btn transparent">Log in</a>
+                    <a href="#" class="btn solid">Sign up</a>
+                </div>
+            </div>
+            <!--NAVEGATION END-->
+
+            <!--HAMBUGER START-->
+            <div class="hamburger_menu_container">
+                <div class="hamburger_menu">
+                    <div></div>
+                </div>
+            </div>
+            <!--HAMBUGER END-->
+
+        </nav>
+    </header>
+    <!--HEADER END-->
+
+
+    <main>
+        <section>
+            <div class="overlay"></div>
+        </section>
+    </main>
+</body>
+
+</html>
